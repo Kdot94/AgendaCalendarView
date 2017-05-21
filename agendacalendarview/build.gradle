@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'me.tatarka.retrolambda'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.Kdot94'
+
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     android {
         lintOptions {
